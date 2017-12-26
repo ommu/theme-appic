@@ -81,8 +81,8 @@
 		$cs->registerCssFile(Yii::app()->theme->baseUrl.'/plugins/animate/animate.min.css');
 		$cs->registerCssFile(Yii::app()->theme->baseUrl.'/plugins/font-awesome/css/font-awesome.min.css');
 		$cs->registerCssFile(Yii::app()->theme->baseUrl.'/plugins/simple-line-icons/css/simple-line-icons.css');
-		$cs->registerCssFile(Yii::app()->theme->baseUrl.'/plugins/OwlCarousel/assets/owl.carousel.min.css');
-		$cs->registerCssFile(Yii::app()->theme->baseUrl.'/plugins/OwlCarousel/assets/owl.theme.default.min.css');
+		$cs->registerCssFile(Yii::app()->theme->baseUrl.'/plugins/owl.carousel/assets/owl.carousel.min.css');
+		$cs->registerCssFile(Yii::app()->theme->baseUrl.'/plugins/owl.carousel/assets/owl.theme.default.min.css');
 		$cs->registerCssFile(Yii::app()->theme->baseUrl.'/plugins/Magnific-Popup/magnific-popup.css');
 		$cs->registerCssFile('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 		$cs->registerCssFile('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
@@ -93,7 +93,7 @@
 		$cs->registerScriptFile(Yii::app()->theme->baseUrl.'/plugins/jquery.appear/jquery.appear.js', CClientScript::POS_END);
 		$cs->registerScriptFile(Yii::app()->theme->baseUrl.'/plugins/bootstrap/js/bootstrap.min.js', CClientScript::POS_END);
 		$cs->registerScriptFile(Yii::app()->theme->baseUrl.'/plugins/superslides/jquery.superslides.min.js', CClientScript::POS_END);
-		$cs->registerScriptFile(Yii::app()->theme->baseUrl.'/plugins/OwlCarousel/owl.carousel.min.js', CClientScript::POS_END);
+		$cs->registerScriptFile(Yii::app()->theme->baseUrl.'/plugins/owl.carousel/owl.carousel.js', CClientScript::POS_END);
 		$cs->registerScriptFile(Yii::app()->theme->baseUrl.'/plugins/Magnific-Popup/jquery.magnific-popup.min.js', CClientScript::POS_END);
 		$cs->registerScriptFile(Yii::app()->theme->baseUrl.'/plugins/waypoints/waypoints.min.js', CClientScript::POS_END);
 		$cs->registerScriptFile(Yii::app()->theme->baseUrl.'/plugins/jquery.counterup/jquery.counterup.min.js', CClientScript::POS_END);
@@ -131,6 +131,30 @@
 	</div>
 
 	<?php echo $content;?>
+
+	<!-- FOOTER -->
+	<div class="section footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-12">
+					<div class="text-center">
+						<!-- Social Icon -->
+						<ul class="social-icon-footer list-inline">
+							<li><a href="#" class="wow rotateIn"><span class="fa fa-facebook"></span></a></li>
+							<li><a href="#" class="wow rotateIn" data-wow-delay="0.1s"><span class="fa fa-twitter"></span></a></li>
+							<li><a href="#" class="wow rotateIn" data-wow-delay="0.2s"><span class="fa fa-dribbble"></span></a></li>
+							<li><a href="#" class="wow rotateIn" data-wow-delay="0.3s"><span class="fa fa-linkedin"></span></a></li>
+							<li><a href="#" class="wow rotateIn" data-wow-delay="0.4s"><span class="fa fa-instagram"></span></a></li>
+						</ul>
+						<div class="fcopy">
+							© 2017 All Right Reserved. Created by Vlader-Themes
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<?php $this->widget('FrontGoogleAnalytics'); ?>
 
  </body>
