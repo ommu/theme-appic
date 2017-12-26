@@ -52,19 +52,19 @@
 		<div class="row">
 			<div class="col-md-4">
 				<div class="demo-box wow fadeIn">
-					<a href="index1.html" target="_blank"><img src="<?php echo Yii::app()->theme->baseUrl;?>/images/preview/demo1.jpg" alt=""></a>
+					<a href="<?php echo Yii::app()->createUrl('template/static1');?>" target="_blank"><img src="<?php echo Yii::app()->theme->baseUrl;?>/images/preview/demo1.jpg" alt=""></a>
 					<h4 class="demo-title">Static Image 1</h4>
 				</div>
 			</div>
 			<div class="col-md-4">
 				<div class="demo-box wow fadeIn" data-wow-delay="0.1s">
-					<a href="index2.html" target="_blank"><img src="<?php echo Yii::app()->theme->baseUrl;?>/images/preview/demo2.jpg" alt=""></a>
+					<a href="<?php echo Yii::app()->createUrl('template/static2');?>" target="_blank"><img src="<?php echo Yii::app()->theme->baseUrl;?>/images/preview/demo2.jpg" alt=""></a>
 					<h4 class="demo-title">Static Image 2</h4>
 				</div>
 			</div>
 			<div class="col-md-4">
 				<div class="demo-box wow fadeIn" data-wow-delay="0.2s">
-					<a href="index3.html" target="_blank"><img src="<?php echo Yii::app()->theme->baseUrl;?>/images/preview/demo3.jpg" alt=""></a>
+					<a href="<?php echo Yii::app()->createUrl('template/animated');?>" target="_blank"><img src="<?php echo Yii::app()->theme->baseUrl;?>/images/preview/demo3.jpg" alt=""></a>
 					<h4 class="demo-title">Animated Headlines</h4>
 				</div>
 			</div>
@@ -72,19 +72,19 @@
 		<div class="row">
 			<div class="col-md-4">
 				<div class="demo-box wow fadeIn">
-					<a href="index4.html" target="_blank"><img src="<?php echo Yii::app()->theme->baseUrl;?>/images/preview/demo4.jpg" alt=""></a>
+					<a href="<?php echo Yii::app()->createUrl('template/slider1');?>" target="_blank"><img src="<?php echo Yii::app()->theme->baseUrl;?>/images/preview/demo4.jpg" alt=""></a>
 					<h4 class="demo-title">Slider 1</h4>
 				</div>
 			</div>
 			<div class="col-md-4">
 				<div class="demo-box wow fadeIn" data-wow-delay="0.1s">
-					<a href="index5.html" target="_blank"><img src="<?php echo Yii::app()->theme->baseUrl;?>/images/preview/demo5.jpg" alt=""></a>
+					<a href="<?php echo Yii::app()->createUrl('template/slider2');?>" target="_blank"><img src="<?php echo Yii::app()->theme->baseUrl;?>/images/preview/demo5.jpg" alt=""></a>
 					<h4 class="demo-title">Slider 2</h4>
 				</div>
 			</div>
 			<div class="col-md-4">
 				<div class="demo-box wow fadeIn" data-wow-delay="0.2s">
-					<a href="index6.html" target="_blank"><img src="<?php echo Yii::app()->theme->baseUrl;?>/images/preview/demo6.jpg" alt=""></a>
+					<a href="<?php echo Yii::app()->createUrl('template/video');?>" target="_blank"><img src="<?php echo Yii::app()->theme->baseUrl;?>/images/preview/demo6.jpg" alt=""></a>
 					<h4 class="demo-title">Video Background</h4>
 				</div>
 			</div>
