@@ -81,7 +81,7 @@
 		$cs->registerCssFile(Yii::app()->theme->baseUrl.'/plugins/animate/animate.min.css');
 		$cs->registerCssFile(Yii::app()->theme->baseUrl.'/plugins/font-awesome/css/font-awesome.min.css');
 		$cs->registerCssFile(Yii::app()->theme->baseUrl.'/plugins/simple-line-icons/css/simple-line-icons.css');
-		$cs->registerCssFile(Yii::app()->theme->baseUrl.'/plugins/owl.carousel/assets/owl.carousel.min.css');
+		$cs->registerCssFile(Yii::app()->theme->baseUrl.'/plugins/owl.carousel/assets/owl.carousel.css');
 		$cs->registerCssFile(Yii::app()->theme->baseUrl.'/plugins/owl.carousel/assets/owl.theme.default.min.css');
 		$cs->registerCssFile(Yii::app()->theme->baseUrl.'/plugins/Magnific-Popup/magnific-popup.css');
 		$cs->registerCssFile('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
@@ -130,8 +130,40 @@
 		<div class="loader"></div>
 	</div>
 
+	<?php if($module == null && $controller != 'site') {?>
+	<!-- HEADER -->
+	<div id="header" class="header-style">
+		<!-- NAVBAR SECTION -->
+		<div class="navbar navbar-main navbar_c1">
+			<div class="container container-nav">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html">
+						<img src="<?php echo Yii::app()->theme->baseUrl;?>/images/logo.png" alt="" />
+					</a>
+				</div>
+				<nav class="collapse navbar-collapse" id="navbar" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+					<ul class="nav navbar-nav navbar-right">
+						<li> <a href="#header">Home</a> </li>
+						<li> <a href="#info">Work</a> </li>
+						<li> <a href="#feautures">Feautures</a> </li>
+						<li> <a href="#download">Downloads</a> </li>
+						<li> <a href="#faqs">Faqs</a></li>
+						<li> <a href="#contact">Contact Us</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<?php }?>
+
 	<?php echo $content;?>
 
+	<?php if($module == null && $controller != 'site') {?>
 	<!-- FOOTER -->
 	<div class="section footer">
 		<div class="container">
@@ -154,6 +186,7 @@
 			</div>
 		</div>
 	</div>
+	<?php }?>
 
 	<?php $this->widget('FrontGoogleAnalytics'); ?>
 
