@@ -69,7 +69,7 @@
 					</div>
 					<p>This call wife do so sigh no gate felt. You and abode spite order get. Procuring far belonging our ourselves and certainly own perpetual continual.</p>
 				</div>
-			</div>		
+			</div>
 		</div>
 	</div>
 </div>
@@ -102,7 +102,7 @@
 									<i class="icon-note icons" aria-hidden="true"></i>
 								</div>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-							</div>	
+							</div>
 						</div>
 					</div>
 					<div class="col-md-6 hidden-sm hidden-xs">
@@ -473,7 +473,7 @@
 								<div class="overlay-bg"></div>
 								<img src="<?php echo Yii::app()->theme->baseUrl;?>/images/preview/screen1.jpg" alt="">
 							</a>
-						</div>							
+						</div>
 					</div>
 				</div>
 			</div>
@@ -598,11 +598,11 @@
 										</div>
 										<p class="quote-name">
 											John Doe<span>Senior Web Engineer</span>
-										</p> 			                                
+										</p>                                
 									</div>
 									 <blockquote>
 										Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-									</blockquote>                      
+									</blockquote>      
 								</div>
 							</div>
 						</div>
@@ -615,11 +615,11 @@
 										</div>
 										<p class="quote-name">
 											John Doe<span>Senior Web Engineer</span>
-										</p> 			                                
+										</p>                                
 									</div>
 									 <blockquote>
 										Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-									</blockquote>       
+									</blockquote>
 								</div>
 							</div>
 						</div>
@@ -632,11 +632,11 @@
 										</div>
 										<p class="quote-name">
 											John Doe<span>Senior Web Engineer</span>
-										</p> 			                                
+										</p>                                
 									</div>
 									 <blockquote>
 										Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-									</blockquote>     
+									</blockquote>
 								</div>
 							</div>
 						</div>
@@ -649,20 +649,20 @@
 										</div>
 										<p class="quote-name">
 											John Doe<span>Senior Web Engineer</span>
-										</p> 			                                
+										</p>                                
 									</div>
 									 <blockquote>
 										Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-									</blockquote> 
+									</blockquote>
 								</div>
 							</div>
 						</div>
 					</div>
-				 </div> 
-			</div>        	
-		</div>  
+				 </div>
+			</div>
+		</div>
 	</div>
-</div>  
+</div>
 
 <!-- PRICES -->
 <div class="section prices pad bg-gray">
@@ -745,10 +745,10 @@
 			</div>
 		</div>
 	</div>
-</div>      	
+</div>
 
-<!-- DOWNLOAD --> 
-<div id="download" class="section pad download white">     
+<!-- DOWNLOAD -->
+<div id="download" class="section pad download white">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12 col-md-6">
@@ -843,7 +843,7 @@
 										<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.</p>
 									</div>
 								</div>
-							  </div>  	
+							  </div>
 						</div>
 					</div>
 					<div class="col-sm-12 col-md-6 wow fadeIn">
