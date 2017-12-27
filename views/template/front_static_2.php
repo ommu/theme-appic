@@ -15,7 +15,7 @@
 	);
 ?>
 
-<!-- head-text-area -->
+<?php //begin.head-text-area ?>
 <div class="section site-header header-style-2 banner">
 	<div class="container">
 		<div class="row">
@@ -38,7 +38,7 @@
 	</div>
 </div>
 
-<!-- INTRO -->
+<?php //begin.INTRO ?>
 <div id="intro" class="section intro pad section-border">
 	<div class="container">
 		<div class="row">
@@ -73,7 +73,7 @@
 	</div>
 </div>
 
-<!-- WORK INFO -->
+<?php //begin.WORK INFO ?>
 <div id="info" class="section info pad">
 	<div class="container">
 		<div class="row">
@@ -276,7 +276,7 @@
 	</div>
 </div>
 
-<!-- MORE FEAUTURES -->
+<?php //begin.MORE FEAUTURES ?>
 <div id="feautures" class="section feautures pad bg-gray">
 	<div class="container">
 		<div class="row">
@@ -289,7 +289,7 @@
 		<div class="row">
 			<div class="col-sm-12 col-md-12">
 				<div class="row">
-					<!-- Feautures 1 -->
+					<?php //begin.Feautures 1 ?>
 					<div class="col-sm-6 col-md-4">
 						<div class="box-icon-2">
 							<div class="body-content">
@@ -302,7 +302,7 @@
 							</div>
 						</div>
 					</div>
-					<!-- Feautures 2 -->
+					<?php //begin.Feautures 2 ?>
 					<div class="col-sm-6 col-md-4">
 						<div class="box-icon-2">
 							<div class="body-content">
@@ -314,7 +314,7 @@
 							</div>
 						</div>
 					</div>
-					<!-- Feautures 3 -->
+					<?php //begin.Feautures 3 ?>
 					<div class="col-sm-6 col-md-4">
 						<div class="box-icon-2">
 							<div class="body-content">
@@ -326,7 +326,7 @@
 							</div>
 						</div>
 					</div>
-					<!-- Feautures 4 -->
+					<?php //begin.Feautures 4 ?>
 					<div class="col-sm-6 col-md-4">
 						<div class="box-icon-2">
 							<div class="body-content">
@@ -338,7 +338,7 @@
 							</div>
 						</div>
 					</div>
-					<!-- Feautures 5 -->
+					<?php //begin.Feautures 5 ?>
 					<div class="col-sm-6 col-md-4">
 						<div class="box-icon-2">
 							<div class="body-content">
@@ -350,7 +350,7 @@
 							</div>
 						</div>
 					</div>
-					<!-- Feautures 6 -->
+					<?php //begin.Feautures 6 ?>
 					<div class="col-sm-6 col-md-4">
 						<div class="box-icon-2">
 							<div class="body-content">
@@ -368,7 +368,7 @@
 	</div>
 </div>
 
-<!-- VIDEO -->
+<?php //begin.VIDEO ?>
 <div class="section pad wow fadeInUp">
 	<div class="container">
 		<div class="row">
@@ -384,7 +384,7 @@
 			</div>
 		</div>
 		<div class="row fact">
-			<!-- Facts 1 -->
+			<?php //begin.Facts 1 ?>
 			<div class="col-xs-6 col-sm-3 col-md-3">
 				<div class="box-icon-1">
 					<div class="box-icon-top">
@@ -394,7 +394,7 @@
 					<p>Project completed</p>
 				</div>
 			</div>
-			<!-- Facts 2 -->
+			<?php //begin.Facts 2 ?>
 			<div class="col-xs-6 col-sm-3 col-md-3">
 				<div class="box-icon-1">
 					<div class="box-icon-top">
@@ -404,7 +404,7 @@
 					<p>Happy clients</p>
 				</div>
 			</div>
-			<!-- Facts 3 -->
+			<?php //begin.Facts 3 ?>
 			<div class="col-xs-6 col-sm-3 col-md-3">
 				<div class="box-icon-1">
 					<div class="box-icon-top">
@@ -414,7 +414,7 @@
 					<p>Design awards</p>
 				</div>
 			</div>
-			<!-- Facts 4 -->
+			<?php //begin.Facts 4 ?>
 			<div class="col-xs-6 col-sm-3 col-md-3">
 				<div class="box-icon-1">
 					<div class="box-icon-top">
@@ -428,7 +428,7 @@
 	</div>
 </div>
 
-<!-- SCREENSHOTS -->
+<?php //begin.SCREENSHOTS ?>
 <div class="section screenshots pad bg-gray">
 	<div class="container">
 		<div class="row">
@@ -480,7 +480,7 @@
 	</div>
 </div>
 
-<!-- MEET THE TEAM -->
+<?php //begin.MEET THE TEAM ?>
 <div class="section team pad bg-gray">
 	<div class="container">
 		<div class="row">
@@ -494,7 +494,7 @@
 			<div class="col-sm-12 col-md-12">
 				<div class="row">
 					<div class="col-sm-12 col-md-12 spacer-25"></div>
-					<!-- Team 1 -->
+					<?php //begin.Team 1 ?>
 					<div class="col-sm-6 col-md-3">
 						<div class="team-1 wow fadeIn">
 							<div class="media">
@@ -513,7 +513,7 @@
 							</div>
 						</div>
 					</div>
-					<!-- Team 2 -->
+					<?php //begin.Team 2 ?>
 					<div class="col-sm-6 col-md-3">
 						<div class="team-1 wow fadeIn" data-wow-delay="0.1s">
 							<div class="media">
@@ -532,7 +532,7 @@
 							</div>
 						</div>
 					</div>
-					<!-- Team 3 -->
+					<?php //begin.Team 3 ?>
 					<div class="col-sm-6 col-md-3">
 						<div class="team-1 wow fadeIn" data-wow-delay="0.2s">
 							<div class="media">
@@ -551,7 +551,7 @@
 							</div>
 						</div>
 					</div>
-					<!-- Team 4 -->
+					<?php //begin.Team 4 ?>
 					<div class="col-sm-6 col-md-3">
 						<div class="team-1 wow fadeIn" data-wow-delay="0.3s">
 							<div class="media">
@@ -576,7 +576,7 @@
 	</div>
 </div>
 
-<!-- TESTIMONIALS -->
+<?php //begin.TESTIMONIALS ?>
 <div class="section pad testimonial">
 	<div class="container">
 		<div class="row">
@@ -663,7 +663,7 @@
 	</div>
 </div>
 
-<!-- PRICES -->
+<?php //begin.PRICES ?>
 <div class="section prices pad bg-gray">
 	<div class="container">
 		<div class="row">
@@ -674,7 +674,7 @@
 			</div>
 			<div class="col-sm-12 col-md-12">
 				<div class="row">
-					<!-- Price 1 -->
+					<?php //begin.Price 1 ?>
 					<div class="col-sm-12 col-md-12 spacer-25"></div>
 					<div class="col-xs-12 col-sm-4 col-md-4">
 						<div class="item-price wow fadeInUp" data-wow-delay="0.1s">
@@ -698,7 +698,7 @@
 							</div>
 						</div>
 					</div>
-					<!-- Price 2 -->
+					<?php //begin.Price 2 ?>
 					<div class="col-xs-12 col-sm-4 col-md-4">
 						<div class="item-price primary-price wow fadeIn">
 							<div class="price-head">
@@ -719,7 +719,7 @@
 							</div>
 						</div>
 					</div>
-					<!-- Price 3 -->
+					<?php //begin.Price 3 ?>
 					<div class="col-xs-12 col-sm-4 col-md-4">
 						<div class="item-price wow fadeInUp" data-wow-delay="0.1s">
 							<div class="price-head">
@@ -746,7 +746,7 @@
 	</div>
 </div>
 
-<!-- DOWNLOAD -->
+<?php //begin.DOWNLOAD ?>
 <div id="download" class="section pad download white">
 	<div class="container">
 		<div class="row">
@@ -779,7 +779,7 @@
 	</div>
 </div>
 
-<!-- FAQS -->
+<?php //begin.FAQS ?>
 <div id="faqs" class="section faq pad">
 	<div class="container">
 		<div class="row">
@@ -854,7 +854,7 @@
 	</div>
 </div>
 
-<!-- NEWSLETTER -->
+<?php //begin.NEWSLETTER ?>
 <div class="container newsletter wow fadeInUp">
 	<div class="newsletter-bg">
 		<div class="row">
@@ -874,7 +874,7 @@
 	</div>
 </div>
 
-<!-- CONTACT -->
+<?php //begin.CONTACT ?>
 <div id="contact" class="section contact pad">
 	<div class="container">
 		<div class="row">

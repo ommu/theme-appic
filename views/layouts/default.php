@@ -125,15 +125,15 @@
  </head>
  <body data-spy="scroll" data-target="#navbar">
 
-	<!-- Load page -->
+	<?php //begin.Load page ?>
 	<div class="animationload">
 		<div class="loader"></div>
 	</div>
 
 	<?php if($module == null && $controller != 'site') {?>
-	<!-- HEADER -->
+	<?php //begin.HEADER ?>
 	<div id="header" class="header-style">
-		<!-- NAVBAR SECTION -->
+		<?php //begin.NAVBAR SECTION ?>
 		<div class="navbar navbar-main navbar_c1">
 			<div class="container container-nav">
 				<div class="navbar-header">
@@ -164,13 +164,13 @@
 	<?php echo $content;?>
 
 	<?php if($module == null && $controller != 'site') {?>
-	<!-- FOOTER -->
+	<?php //begin.FOOTER ?>
 	<div class="section footer">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 col-md-12">
 					<div class="text-center">
-						<!-- Social Icon -->
+						<?php //begin.Social Icon ?>
 						<ul class="social-icon-footer list-inline">
 							<li><a href="#" class="wow rotateIn"><span class="fa fa-facebook"></span></a></li>
 							<li><a href="#" class="wow rotateIn" data-wow-delay="0.1s"><span class="fa fa-twitter"></span></a></li>

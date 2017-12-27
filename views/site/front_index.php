@@ -18,7 +18,7 @@
 	$this->pageDescription = '';
 ?>
 
-<!-- head-text-area -->
+<?php //begin.head-text-area ?>
 <div class="section site-header header-style-3 banner landing">
 	<svg viewBox="0 0 100 23">
 		<path fill="#ffffff" d="M0 30 V12 Q30 17 55 12 T100 11 V30z"></path>
@@ -46,7 +46,7 @@
 	</div>
 </div>
 
-<!-- DEMOS -->
+<?php //begin.DEMOS ?>
 <div id="demos" class="section intro pad">
 	<div class="container">
 		<div class="row">
@@ -92,7 +92,7 @@
 	</div>
 </div>
 
-<!-- FOOTER -->
+<?php //begin.FOOTER ?>
 <div class="section footer">
 	<div class="container">
 		<div class="row">
