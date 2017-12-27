@@ -130,63 +130,7 @@
 		<div class="loader"></div>
 	</div>
 
-	<?php if($module == null && $controller != 'site') {?>
-	<?php //begin.HEADER ?>
-	<div id="header" class="header-style">
-		<?php //begin.NAVBAR SECTION ?>
-		<div class="navbar navbar-main navbar_c1">
-			<div class="container container-nav">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="index.html">
-						<img src="<?php echo Yii::app()->theme->baseUrl;?>/images/logo.png" alt="" />
-					</a>
-				</div>
-				<nav class="collapse navbar-collapse" id="navbar" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
-					<ul class="nav navbar-nav navbar-right">
-						<li> <a href="#header">Home</a> </li>
-						<li> <a href="#info">Work</a> </li>
-						<li> <a href="#feautures">Feautures</a> </li>
-						<li> <a href="#download">Downloads</a> </li>
-						<li> <a href="#faqs">Faqs</a></li>
-						<li> <a href="#contact">Contact Us</a></li>
-					</ul>
-				</nav>
-			</div>
-		</div>
-	</div>
-	<?php }?>
-
 	<?php echo $content;?>
-
-	<?php if($module == null && $controller != 'site') {?>
-	<?php //begin.FOOTER ?>
-	<div class="section footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12 col-md-12">
-					<div class="text-center">
-						<?php //begin.Social Icon ?>
-						<ul class="social-icon-footer list-inline">
-							<li><a href="#" class="wow rotateIn"><span class="fa fa-facebook"></span></a></li>
-							<li><a href="#" class="wow rotateIn" data-wow-delay="0.1s"><span class="fa fa-twitter"></span></a></li>
-							<li><a href="#" class="wow rotateIn" data-wow-delay="0.2s"><span class="fa fa-dribbble"></span></a></li>
-							<li><a href="#" class="wow rotateIn" data-wow-delay="0.3s"><span class="fa fa-linkedin"></span></a></li>
-							<li><a href="#" class="wow rotateIn" data-wow-delay="0.4s"><span class="fa fa-instagram"></span></a></li>
-						</ul>
-						<div class="fcopy">
-							© 2017 All Right Reserved. Created by Vlader-Themes
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<?php }?>
 
 	<?php $this->widget('FrontGoogleAnalytics'); ?>
 
