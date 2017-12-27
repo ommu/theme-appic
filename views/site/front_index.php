@@ -101,7 +101,7 @@
 					<h4 class="demo-title white">
 						Create Your Website With Our Mobile App Template
 					</h4>
-					<a href="https://www.templatemonster.com/landing-page-template/appic-creative-mobile-app-html-landing-page-template-66212.html" target="_blank" class="btn btn-primary action-btn wow fadeInUp"><span>Purchase now!</span></a>
+					<a href="https://github.com/OmmuThemes/appic" target="_blank" class="btn btn-primary action-btn wow fadeInUp"><span>Get Now!</span></a>
 				</div>
 			</div>
 		</div>
