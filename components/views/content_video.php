@@ -22,7 +22,7 @@
 							<i class="fa fa-play" aria-hidden="true"></i>
 						</div>
 					</div>
-					<iframe id="video-frame" src="https://www.youtube.com/embed/iGpuQ0ioPrM?rel=0" allowfullscreen></iframe>
+					<iframe id="video-frame" src="https://www.youtube.com/embed/<?php echo $this->source;?>?rel=0" allowfullscreen></iframe>
 				</div>
 			</div>
 		</div>

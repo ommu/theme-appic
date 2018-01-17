@@ -12,7 +12,14 @@
 
 class ContentTestimonial extends CWidget
 {
+	public $title;
+	public $desc;
+
 	public function init() {
+		if(!$this->title)
+			$this->title = 'What Clients Say?';
+		if(!$this->desc)
+			$this->desc = 'Him boisterous invitation dispatched had connection inhabiting projection. By mutual an mr danger garret edward an.';
 	}
 
 	public function run() {

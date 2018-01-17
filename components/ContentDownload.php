@@ -12,7 +12,14 @@
 
 class ContentDownload extends CWidget
 {
+	public $title;
+	public $desc;
+
 	public function init() {
+		if(!$this->title)
+			$this->title = 'Download Appic Today!';
+		if(!$this->desc)
+			$this->desc = 'Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.';
 	}
 
 	public function run() {

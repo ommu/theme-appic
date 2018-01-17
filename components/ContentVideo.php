@@ -12,7 +12,11 @@
 
 class ContentVideo extends CWidget
 {
+	public $source;
+
 	public function init() {
+		if(!$this->source)
+			$this->source = 'iGpuQ0ioPrM';
 	}
 
 	public function run() {

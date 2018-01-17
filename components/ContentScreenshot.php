@@ -12,7 +12,14 @@
 
 class ContentScreenshot extends CWidget
 {
+	public $title;
+	public $desc;
+
 	public function init() {
+		if(!$this->title)
+			$this->title = 'App Screenshots';
+		if(!$this->desc)
+			$this->desc = 'Him boisterous invitation dispatched had connection inhabiting projection. By mutual an mr danger garret edward an.';
 	}
 
 	public function run() {

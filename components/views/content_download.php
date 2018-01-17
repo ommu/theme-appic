@@ -23,8 +23,8 @@
 			<div class="col-sm-12 col-md-6">
 				<div class="content-pad">
 					<div class="section-heading">
-						<h2 class="white wow fadeInUp">Download Appic today!</h2>
-						<p class="white wow fadeInUp">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.</p>
+						<h2 class="white wow fadeInUp"><?php echo $this->title;?></h2>
+						<p class="white wow fadeInUp"><?php echo $this->desc;?></p>
 					</div>
 					<a href="#" class="btn btn-primary available active wow fadeInUp">
 						<div class="z-fix">

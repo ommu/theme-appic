@@ -12,7 +12,14 @@
 
 class ContentWorkInfo extends CWidget
 {
+	public $title;
+	public $desc;
+
 	public function init() {
+		if(!$this->title)
+			$this->title = 'Built With Love';
+		if(!$this->desc)
+			$this->desc = 'Him boisterous invitation dispatched had connection inhabiting projection. By mutual an mr danger garret edward an.';
 	}
 
 	public function run() {

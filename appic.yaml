@@ -1,0 +1,93 @@
+group_page: public
+name: Appic - Creative Mobile App Landing Page Template
+folder: appic
+layout: front_default
+thumbnail: 
+
+author:
+  name: Putra Sudaryanto
+  phone: (+62)856-299-4114
+  email: putra@sudaryanto.id
+  homepage: https://sudaryanto.id
+
+config:
+  template:
+    label: Template
+    option:
+      static1: Static Image 1
+      static2: Static Image 2
+      animated: Animated Headlines
+      slider1: Slider 1
+      slider2: Slider 2
+      video: Video Background
+    title: Title "Showcase your software with landing"
+    desc: Description "Praesent ullamcorper viverra malesuada. In malesuada, tellus ut facilisis tristique."
+    animation-title: Animation Title "Showcase your software with"
+    animation-text: Animation Text "best way, landing, Appic"
+
+  intro:
+    label: Intro
+    publish: 1
+
+  workinfo:
+    label: WorkInfo
+    publish: 1
+    title: Title "Built With Love
+    desc: Description "Him boisterous invitation dispatched had connection inhabiting projection. By mutual an mr danger garret edward an."
+
+  feature:
+    label: Features
+    publish: 1
+    title: Title "Feautures"
+    desc: Description "Him boisterous invitation dispatched had connection inhabiting projection. By mutual an mr danger garret edward an."
+
+  video:
+    label: Video
+    publish: 1
+    source: youtube=iGpuQ0ioPrM
+
+  screenshot:
+    label: Screenshot
+    publish: 1
+    title: Title "App Screenshots"
+    desc: Description "Him boisterous invitation dispatched had connection inhabiting projection. By mutual an mr danger garret edward an."
+
+  team:
+    label: Team
+    publish: 1
+    title: Title "Meet The Team"
+    desc: Description "Him boisterous invitation dispatched had connection inhabiting projection. By mutual an mr danger garret edward an."
+
+  testimony:
+    label: Testimonial
+    publish: 1
+    title: Title "What Clients Say?"
+    desc: Description "Him boisterous invitation dispatched had connection inhabiting projection. By mutual an mr danger garret edward an."
+
+  price:
+    label: Price
+    publish: 1
+    title: Title "Our Prices"
+    desc: Description "Him boisterous invitation dispatched had connection inhabiting projection. By mutual an mr danger garret edward an."
+
+  download:
+    label: Download
+    publish: 1
+    title: Title "Download Appic Today!"
+    desc: Description "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod."
+
+  faq:
+    label: Faqs
+    publish: 1
+    title: Title "Faqs"
+    desc: Description "Him boisterous invitation dispatched had connection inhabiting projection. By mutual an mr danger garret edward an."
+
+  newsletter:
+    label: Newsletter
+    publish: 1
+
+  contact-us:
+    label: Contact Us
+    publish: 1
+    title: Title "Contact Us"
+    desc: Description "Him boisterous invitation dispatched had connection inhabiting projection. By mutual an mr danger garret edward an."
