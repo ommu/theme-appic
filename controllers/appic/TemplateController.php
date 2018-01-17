@@ -23,10 +23,8 @@ class TemplateController extends Controller
 	 */
 	public function init() 
 	{
-		$arrThemes = Utility::getCurrentTemplate('public');
-		Yii::app()->theme = $arrThemes['folder'];
-		$this->layout = $arrThemes['layout'];
-		Utility::applyViewPath(__dir__, false);
+		Yii::app()->theme = 'appic';
+		$this->layout = 'front_default';
 	}
 
 	/**
@@ -49,10 +47,10 @@ class TemplateController extends Controller
 	 */
 	public function actionStatic1()
 	{
-		$this->pageTitle = Yii::t('phrase', 'Static Image 1');
+		$this->pageTitle = Yii::t('phrase', 'Static Image 1 | Appic - Creative Mobile App Landing Page Template');
 		$this->pageDescription = '';
 		$this->pageMeta = '';
-		$this->render('front_static_1');
+		$this->render('/appic/template/front_static_1');
 	}
 	
 	/**
@@ -60,10 +58,10 @@ class TemplateController extends Controller
 	 */
 	public function actionStatic2()
 	{
-		$this->pageTitle = Yii::t('phrase', 'Static Image 2');
+		$this->pageTitle = Yii::t('phrase', 'Static Image 2 | Appic - Creative Mobile App Landing Page Template');
 		$this->pageDescription = '';
 		$this->pageMeta = '';
-		$this->render('front_static_2');
+		$this->render('/appic/template/front_static_2');
 	}
 	
 	/**
@@ -71,10 +69,10 @@ class TemplateController extends Controller
 	 */
 	public function actionAnimated()
 	{
-		$this->pageTitle = Yii::t('phrase', 'Animated Headlines');
+		$this->pageTitle = Yii::t('phrase', 'Animated Headlines | Appic - Creative Mobile App Landing Page Template');
 		$this->pageDescription = '';
 		$this->pageMeta = '';
-		$this->render('front_animated');
+		$this->render('/appic/template/front_animated');
 	}
 	
 	/**
@@ -82,10 +80,10 @@ class TemplateController extends Controller
 	 */
 	public function actionSlider1()
 	{
-		$this->pageTitle = Yii::t('phrase', 'Slider 1');
+		$this->pageTitle = Yii::t('phrase', 'Slider 1 | Appic - Creative Mobile App Landing Page Template');
 		$this->pageDescription = '';
 		$this->pageMeta = '';
-		$this->render('front_slider_1');
+		$this->render('/appic/template/front_slider_1');
 	}
 	
 	/**
@@ -93,10 +91,10 @@ class TemplateController extends Controller
 	 */
 	public function actionSlider2()
 	{
-		$this->pageTitle = Yii::t('phrase', 'Slider 2');
+		$this->pageTitle = Yii::t('phrase', 'Slider 2 | Appic - Creative Mobile App Landing Page Template');
 		$this->pageDescription = '';
 		$this->pageMeta = '';
-		$this->render('front_slider_2');
+		$this->render('/appic/template/front_slider_2');
 	}
 	
 	/**
@@ -104,9 +102,9 @@ class TemplateController extends Controller
 	 */
 	public function actionVideo()
 	{
-		$this->pageTitle = Yii::t('phrase', 'Video Background');
+		$this->pageTitle = Yii::t('phrase', 'Video Background | Appic - Creative Mobile App Landing Page Template');
 		$this->pageDescription = '';
 		$this->pageMeta = '';
-		$this->render('front_video');
+		$this->render('/appic/template/front_video');
 	}
 }
