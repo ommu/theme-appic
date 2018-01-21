@@ -132,7 +132,7 @@
 
 	<?php echo $content;?>
 
-	<?php $this->widget('FrontGoogleAnalytics'); ?>
+	<?php $this->widget('ComGoogleAnalytics'); ?>
 
  </body>
 </html>
