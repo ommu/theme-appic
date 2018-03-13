@@ -33,7 +33,7 @@
 	$this->widget('ContentIntro');
 } //Intro ?>
 
-<?php if(!$condition || in_array($configTheme['intro']['publish'], array('', 1))) {
+<?php if(!$condition || in_array($configTheme['workinfo']['publish'], array('', 1))) {
 	$this->widget('ContentWorkInfo', array(
 		'title' => $configTheme['workinfo']['title'],
 		'desc' => $configTheme['workinfo']['desc'],

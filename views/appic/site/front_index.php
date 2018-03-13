@@ -26,16 +26,16 @@
 				<div class="head-text-area type-3 text-center">
 					<div class="h-text-inner">
 						<h1 class="type-headings wow fadeInDown">
-							Showcase your software with Appic
+						<?php echo Yii::t('phrase', 'Showcase your software with Appic');?>
 						</h1>
 						<p class="excerpt wow fadeIn cd-headline slide">
 							<span class="cd-words-wrapper">
-							  <b class="is-visible">Modern, flexible, well crafted HTML template</b>
-							  <b>Beautiful and unique concepts</b>
-							  <b>Powered by Bootstrap framework</b>	
+							  <b class="is-visible"><?php echo Yii::t('phrase', 'Modern, flexible, well crafted HTML template');?></b>
+							  <b><?php echo Yii::t('phrase', 'Beautiful and unique concepts');?></b>
+							  <b><?php echo Yii::t('phrase', 'Powered by Bootstrap framework');?></b>	
 							</span>	
 						</p>
-						<a href="#demos" class="btn btn-primary action-btn wow fadeInUp"><span>WATH DEMOS</span></a>
+						<a href="#demos" class="btn btn-primary action-btn wow fadeInUp"><span><?php echo Yii::t('phrase', 'WATH DEMOS');?></span></a>
 					</div>
 				</div>
 			</div>
@@ -50,19 +50,19 @@
 			<div class="col-md-4">
 				<div class="demo-box wow fadeIn">
 					<a href="<?php echo Yii::app()->createUrl('appictemplate/static1');?>" target="_blank"><img src="<?php echo Yii::app()->theme->baseUrl;?>/images/preview/demo1.jpg" alt=""></a>
-					<h4 class="demo-title">Static Image 1</h4>
+					<h4 class="demo-title"><?php echo Yii::t('phrase', 'Static Image 1');?></h4>
 				</div>
 			</div>
 			<div class="col-md-4">
 				<div class="demo-box wow fadeIn" data-wow-delay="0.1s">
 					<a href="<?php echo Yii::app()->createUrl('appictemplate/static2');?>" target="_blank"><img src="<?php echo Yii::app()->theme->baseUrl;?>/images/preview/demo2.jpg" alt=""></a>
-					<h4 class="demo-title">Static Image 2</h4>
+					<h4 class="demo-title"><?php echo Yii::t('phrase', 'Static Image 2');?></h4>
 				</div>
 			</div>
 			<div class="col-md-4">
 				<div class="demo-box wow fadeIn" data-wow-delay="0.2s">
 					<a href="<?php echo Yii::app()->createUrl('appictemplate/animated');?>" target="_blank"><img src="<?php echo Yii::app()->theme->baseUrl;?>/images/preview/demo3.jpg" alt=""></a>
-					<h4 class="demo-title">Animated Headlines</h4>
+					<h4 class="demo-title"><?php echo Yii::t('phrase', 'Animated Headlines');?></h4>
 				</div>
 			</div>
 		</div>
@@ -70,19 +70,19 @@
 			<div class="col-md-4">
 				<div class="demo-box wow fadeIn">
 					<a href="<?php echo Yii::app()->createUrl('appictemplate/slider1');?>" target="_blank"><img src="<?php echo Yii::app()->theme->baseUrl;?>/images/preview/demo4.jpg" alt=""></a>
-					<h4 class="demo-title">Slider 1</h4>
+					<h4 class="demo-title"><?php echo Yii::t('phrase', 'Slider 1');?></h4>
 				</div>
 			</div>
 			<div class="col-md-4">
 				<div class="demo-box wow fadeIn" data-wow-delay="0.1s">
 					<a href="<?php echo Yii::app()->createUrl('appictemplate/slider2');?>" target="_blank"><img src="<?php echo Yii::app()->theme->baseUrl;?>/images/preview/demo5.jpg" alt=""></a>
-					<h4 class="demo-title">Slider 2</h4>
+					<h4 class="demo-title"><?php echo Yii::t('phrase', 'Slider 2');?></h4>
 				</div>
 			</div>
 			<div class="col-md-4">
 				<div class="demo-box wow fadeIn" data-wow-delay="0.2s">
 					<a href="<?php echo Yii::app()->createUrl('appictemplate/video');?>" target="_blank"><img src="<?php echo Yii::app()->theme->baseUrl;?>/images/preview/demo6.jpg" alt=""></a>
-					<h4 class="demo-title">Video Background</h4>
+					<h4 class="demo-title"><?php echo Yii::t('phrase', 'Video Background');?></h4>
 				</div>
 			</div>
 		</div>

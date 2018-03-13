@@ -1,6 +1,6 @@
 <?php
 /**
- * @var $this ContentWorkInfo
+ * @var $this Footer
  * version: 0.0.1
  *
  * @author Putra Sudaryanto <putra@sudaryanto.id>

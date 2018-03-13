@@ -18,36 +18,7 @@
 	$currentModuleAction = strtolower(Yii::app()->controller->module->id.'/'.Yii::app()->controller->id.'/'.Yii::app()->controller->action->id);
 ?>
 
-<?php if(!($module == null && $currentAction == 'site/error')) {?>
-<?php //begin.HEADER ?>
-<div id="header" class="header-style">
-	<?php //begin.NAVBAR SECTION ?>
-	<div class="navbar navbar-main navbar_c1">
-		<div class="container container-nav">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="index.html">
-					<img src="<?php echo Yii::app()->theme->baseUrl;?>/images/logo.png" alt="" />
-				</a>
-			</div>
-			<nav class="collapse navbar-collapse" id="navbar" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
-				<ul class="nav navbar-nav navbar-right">
-					<li> <a href="#header"><?php echo Yii::t('phrase', 'Home');?></a> </li>
-					<li> <a href="#info"><?php echo Yii::t('phrase', 'Work');?></a> </li>
-					<li> <a href="#feautures"><?php echo Yii::t('phrase', 'Feautures');?></a> </li>
-					<li> <a href="#download"><?php echo Yii::t('phrase', 'Downloads');?></a> </li>
-					<li> <a href="#faqs"><?php echo Yii::t('phrase', 'Faqs');?></a></li>
-					<li> <a href="#contact"><?php echo Yii::t('phrase', 'Contact Us');?></a></li>
-				</ul>
-			</nav>
-		</div>
-	</div>
-</div>
-<?php }?>
+<?php $this->widget('Mainmenu'); //Mainmenu ?>
 
 <?php echo $content;?>
 
