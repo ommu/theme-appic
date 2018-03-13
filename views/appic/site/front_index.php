@@ -96,9 +96,9 @@
 			<div class="col-sm-12 col-md-12">
 				<div class="text-center">
 					<h4 class="demo-title white">
-						Create Your Website With Our Mobile App Template
+						<?php echo Yii::t('phrase', 'Create Your Website With Our Mobile App Template');?>
 					</h4>
-					<a href="https://github.com/OmmuThemes/appic" target="_blank" class="btn btn-primary action-btn wow fadeInUp"><span>Get Now!</span></a>
+					<a href="https://github.com/OmmuThemes/appic" target="_blank" class="btn btn-primary action-btn wow fadeInUp"><span><?php echo Yii::t('phrase', 'Get Now!');?></span></a>
 				</div>
 			</div>
 		</div>

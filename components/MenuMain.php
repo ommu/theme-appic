@@ -1,6 +1,6 @@
 <?php
 /**
- * Mainmenu
+ * MenuMain
  * version: 0.0.1
  *
  * @author Putra Sudaryanto <putra@sudaryanto.id>
@@ -10,7 +10,7 @@
  *
  */
 
-class Mainmenu extends CWidget
+class MenuMain extends CWidget
 {
 	public function init() {
 	}

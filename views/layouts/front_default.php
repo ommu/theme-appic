@@ -18,7 +18,7 @@
 	$currentModuleAction = strtolower(Yii::app()->controller->module->id.'/'.Yii::app()->controller->id.'/'.Yii::app()->controller->action->id);
 ?>
 
-<?php $this->widget('Mainmenu'); //Mainmenu ?>
+<?php $this->widget('MenuMain'); //Mainmenu ?>
 
 <?php echo $content;?>
 
