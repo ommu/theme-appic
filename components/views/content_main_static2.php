@@ -20,7 +20,7 @@
 					<div class="h-text-inner">
 						<h2 class="type-headings wow fadeInDown"><?php echo $this->title;?></h2>
 						<p class="excerpt"><?php echo $this->desc;?></p>
-						<a href="#" class="btn btn-primary action-btn wow fadeInUp"><span>GET STARTED</span></a>
+						<a href="#" class="btn btn-primary action-btn wow fadeInUp"><span><?php echo Yii::t('phrase', 'GET STARTED');?></span></a>
 					</div>
 				</div>
 			</div>

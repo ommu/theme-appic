@@ -29,13 +29,13 @@
 					<a href="#" class="btn btn-primary available active wow fadeInUp">
 						<div class="z-fix">
 							<i class="fa fa-apple available-cell" aria-hidden="true"></i>
-							<p class="available-cell">Available <span>on App Store</span></p>
+							<p class="available-cell"><?php echo Yii::t('phrase', 'Available <span>{string}</span>', array('{string}'=>'on App Store'));?> </p>
 						</div>
 					</a>
 					<a href="#" class="btn btn-primary available wow fadeInUp">
 						<div class="z-fix">
 							<i class="fa fa-android available-cell" aria-hidden="true"></i>
-							<p class="available-cell">Available <span>on Google Store</span></p>
+							<p class="available-cell"><?php echo Yii::t('phrase', 'Available <span>{string}</span>', array('{string}'=>'on Google Store'));?></p>
 						</div>
 					</a>
 				</div>

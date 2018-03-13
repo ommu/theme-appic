@@ -36,12 +36,12 @@
 			</div>
 			<nav class="collapse navbar-collapse" id="navbar" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
 				<ul class="nav navbar-nav navbar-right">
-					<li> <a href="#header">Home</a> </li>
-					<li> <a href="#info">Work</a> </li>
-					<li> <a href="#feautures">Feautures</a> </li>
-					<li> <a href="#download">Downloads</a> </li>
-					<li> <a href="#faqs">Faqs</a></li>
-					<li> <a href="#contact">Contact Us</a></li>
+					<li> <a href="#header"><?php echo Yii::t('phrase', 'Home');?></a> </li>
+					<li> <a href="#info"><?php echo Yii::t('phrase', 'Work');?></a> </li>
+					<li> <a href="#feautures"><?php echo Yii::t('phrase', 'Feautures');?></a> </li>
+					<li> <a href="#download"><?php echo Yii::t('phrase', 'Downloads');?></a> </li>
+					<li> <a href="#faqs"><?php echo Yii::t('phrase', 'Faqs');?></a></li>
+					<li> <a href="#contact"><?php echo Yii::t('phrase', 'Contact Us');?></a></li>
 				</ul>
 			</nav>
 		</div>

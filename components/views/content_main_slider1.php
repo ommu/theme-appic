@@ -23,7 +23,7 @@
 								<div class="h-text-inner">
 									<h2 class="type-headings wow fadeInDown" data-animation-in="fadeInUp"><?php echo $this->title;?></h2>
 									<p class="excerpt wow fadeIn" data-animation-in="fadeIn"><?php echo $this->desc;?></p>
-									<a href="#" class="btn btn-primary action-btn wow fadeInUp" data-animation-in="fadeInUp"><span>GET STARTED</span></a>
+									<a href="#" class="btn btn-primary action-btn wow fadeInUp" data-animation-in="fadeInUp"><span><?php echo Yii::t('phrase', 'GET STARTED');?></span></a>
 								</div>
 							</div>
 						</div>
@@ -57,17 +57,17 @@
 						<div class="col-lg-12">
 							<div class="head-text-area type-3 text-center">
 								<div class="h-text-inner">
-									<h2 class="type-headings wow fadeInDown" data-animation-in="fadeInUp">Download awesome Appic today!</h2>
+									<h2 class="type-headings wow fadeInDown" data-animation-in="fadeInUp"<?php echo Yii::t('phrase', 'Download awesome Appic today!');?>></h2>
 									<a href="#" class="btn btn-primary available active wow fadeInUp">
 										<div class="z-fix">
 											<i class="fa fa-apple available-cell" aria-hidden="true"></i>
-											<p class="available-cell">Available <span>on App Store</span></p>
+											<p class="available-cell"><?php echo Yii::t('phrase', 'Available <span>{string}</span>', array('{string}'=>'on App Store'));?> </p>
 										</div>
 									</a>
 									<a href="#" class="btn btn-primary available wow fadeInUp" data-wow-delay="0.1s">
 										<div class="z-fix">
 											<i class="fa fa-android available-cell" aria-hidden="true"></i>
-											<p class="available-cell">Available <span>on Google Store</span></p>
+											<p class="available-cell"><?php echo Yii::t('phrase', 'Available <span>{string}</span>', array('{string}'=>'on Google Store'));?></p>
 										</div>
 									</a>
 								</div>

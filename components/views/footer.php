@@ -26,7 +26,7 @@
 						<li><a href="#" class="wow rotateIn" data-wow-delay="0.4s"><span class="fa fa-instagram"></span></a></li>
 					</ul>
 					<div class="fcopy">
-						© 2017 All Right Reserved. Created by Vlader-Themes
+						<?php echo Yii::t('phrase', '© {year} All Right Reserved. Created by Vlader-Themes', array('{year}'=>'2017'));?>
 					</div>
 				</div>
 			</div>

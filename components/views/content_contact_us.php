@@ -28,14 +28,14 @@
 					<div class="box-icon-3">
 						<div class="body-content">
 							<i class="fa fa-phone" aria-hidden="true"></i>
-							<h4>Phone Number</h4>
+							<h4><?php echo Yii::t('phrase', 'Phone Number');?></h4>
 							<span>(251) 546-9442</span>
 						</div>
 					</div>
 					<div class="box-icon-3">
 						<div class="body-content">
 							<i class="fa fa-envelope" aria-hidden="true"></i>
-							<h4>Phone Number</h4>
+							<h4><?php echo Yii::t('phrase', 'Phone Number');?></h4>
 							<span>(251) 546-9442</span>
 						</div>
 					</div>
@@ -67,7 +67,7 @@
 						<div class="col-md-12 text-right">
 							<div class="form-group">
 								<div id="success"></div>
-								<button type="submit" class="btn btn-primary"><span>SEND MESSAGE</span></button>
+								<button type="submit" class="btn btn-primary"><span><?php echo Yii::t('phrase', 'SEND MESSAGE');?></span></button>
 							</div>
 						</div>
 					</div>

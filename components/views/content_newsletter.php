@@ -17,14 +17,14 @@
 		<div class="row">
 			<div class="col-sm-12 col-md-6">
 				<div class="newsletter-text">
-					<h2>Subscribe for newsletter</h2>
-					<span>This call wife do so sigh no gate felt.</span>
+					<h2><?php echo Yii::t('phrase', 'Subscribe for newsletter');?></h2>
+					<span><?php echo Yii::t('phrase', 'This call wife do so sigh no gate felt.');?></span>
 				</div>
 			</div>
 			<div class="col-sm-12 col-md-6">
 				<form action="php/newsletter.php" method="post">
 					<input id="email_newsletter" class="form-control" type="email" name="nf_email" placeholder="Enter Your Email" maxlength="50">
-					<button type="submit" class="btn btn-primary disabled"><span>Subscribe</span></button>
+					<button type="submit" class="btn btn-primary disabled"><span><?php echo Yii::t('phrase', 'Subscribe');?></span></button>
 				</form>
 			</div>
 		</div>
