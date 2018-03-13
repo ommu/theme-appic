@@ -18,6 +18,7 @@
 	$currentModuleAction = strtolower(Yii::app()->controller->module->id.'/'.Yii::app()->controller->id.'/'.Yii::app()->controller->action->id);
 ?>
 
+<?php if(!($module == null && $currentAction == 'site/error')) {?>
 <?php //begin.HEADER ?>
 <div id="header" class="header-style">
 	<?php //begin.NAVBAR SECTION ?>
@@ -46,6 +47,7 @@
 		</div>
 	</div>
 </div>
+<?php }?>
 
 <?php echo $content;?>
 
