@@ -14,16 +14,13 @@
 		'Error',
 	);
 
-	Yii::import('webroot.themes.'.Yii::app()->theme->name.'.components.*');
-
-	$condition = 0;
+	Yii::import('webroot.themes.appic.components.*');
+	
 	$model = OmmuThemes::model()->findByAttributes(array(
 		'default_theme'=>1,
-		'folder'=>Yii::app()->theme->name,
+		'folder'=>'appic',
 	));
 	$configTheme = unserialize($model->config);
-	if($model != null && is_array($configTheme) && !empty($configTheme))
-		$condition = 1;
 ?>
 
 <?php //begin.head-text-area ?>
@@ -45,9 +42,7 @@
 	</div>
 </div>
 
-<?php if(!$condition || in_array($configTheme['faq']['publish'], array('', 1))) {
-	$this->widget('ContentFaqs', array(
-		'title' => $configTheme['faq']['title'],
-		'desc' => $configTheme['faq']['desc'],
-	));
-} //Faqs ?>
+<?php $this->widget('ContentContactUs', array(
+	'title' => $configTheme['contact-us']['title'],
+	'desc' => $configTheme['contact-us']['desc'],
+)); //ContentContactUs ?>
