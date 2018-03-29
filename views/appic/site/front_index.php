@@ -32,8 +32,8 @@
 							<span class="cd-words-wrapper">
 							  <b class="is-visible"><?php echo Yii::t('phrase', 'Modern, flexible, well crafted HTML template');?></b>
 							  <b><?php echo Yii::t('phrase', 'Beautiful and unique concepts');?></b>
-							  <b><?php echo Yii::t('phrase', 'Powered by Bootstrap framework');?></b>	
-							</span>	
+							  <b><?php echo Yii::t('phrase', 'Powered by Bootstrap framework');?></b>
+							</span>
 						</p>
 						<a href="#demos" class="btn btn-primary action-btn wow fadeInUp"><span><?php echo Yii::t('phrase', 'WATH DEMOS');?></span></a>
 					</div>
