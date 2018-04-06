@@ -11,20 +11,19 @@
 		"app",
 		"landing",
 		"ommu",
-		"platform",
 		"ommu platform"
 	],
-	"homepage": "https://github.com/OmmuThemes/appic",
+	"homepage": "https://github.com/ommu/theme-appic",
 	"type": "ommu-theme",
 	"license": "Apache-2.0",
 	"support": {
-		"issues": "https://github.com/OmmuThemes/appic/issues",
-		"wiki": "https://github.com/OmmuThemes/appic/wiki",
-		"source": "https://github.com/OmmuThemes/appic"
+		"issues": "https://github.com/ommu/theme-appic/issues",
+		"wiki": "https://github.com/ommu/theme-appic/wiki",
+		"source": "https://github.com/ommu/theme-appic"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/OmmuThemes/appic.git"
+		"url": "https://github.com/ommu/theme-appic.git"
 	},
 	"authors": [
 		{
