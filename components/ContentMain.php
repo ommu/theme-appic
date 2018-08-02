@@ -12,6 +12,8 @@
 
 class ContentMain extends CWidget
 {
+	use FileTrait;
+
 	public $template;
 	public $title;
 	public $desc;
@@ -31,7 +33,7 @@ class ContentMain extends CWidget
 		if(!$this->animation_text)
 			$this->animation_text = 'best way, landing, Appic';
 		
-		$this->animation_array = Utility::formatFileType($this->animation_text);
+		$this->animation_array = $this->formatFileType($this->animation_text);
 	}
 
 	public function run() {

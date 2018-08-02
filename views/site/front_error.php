@@ -16,11 +16,7 @@
 
 	Yii::import('webroot.themes.appic.components.*');
 	
-	$model = OmmuThemes::model()->findByAttributes(array(
-		'default_theme'=>1,
-		'folder'=>'appic',
-	));
-	$configTheme = unserialize($model->config);
+	$configTheme = Yii::app()->controller->themeSetting;
 ?>
 
 <?php //begin.head-text-area ?>

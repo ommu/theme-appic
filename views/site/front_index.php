@@ -10,15 +10,7 @@
  */
 
 	Yii::import('webroot.themes.appic.components.*');
-
-	$condition = 0;
-	$model = OmmuThemes::model()->findByAttributes(array(
-		'default_theme'=>1,
-		'folder'=>'appic',
-	));
-	$configTheme = unserialize($model->config);
-	if($model != null && is_array($configTheme) && !empty($configTheme))
-		$condition = 1;
+	$configTheme = Yii::app()->controller->themeSetting;
 ?>
 
 <?php $this->widget('ContentMain', array(
@@ -29,77 +21,77 @@
 	'animation_text' => $configTheme['template']['animation-text'],
 )); //Main ?>
 
-<?php if(!$condition || in_array($configTheme['intro']['publish'], array('', 1))) {
+<?php if($configTheme['intro']['publish'] != 0) {
 	$this->widget('ContentIntro');
 } //Intro ?>
 
-<?php if(!$condition || in_array($configTheme['workinfo']['publish'], array('', 1))) {
+<?php if($configTheme['workinfo']['publish'] != 0) {
 	$this->widget('ContentWorkInfo', array(
 		'title' => $configTheme['workinfo']['title'],
 		'desc' => $configTheme['workinfo']['desc'],
 	));
  } //WorkInfo ?>
 
-<?php if(!$condition || in_array($configTheme['feature']['publish'], array('', 1))) {
+<?php if($configTheme['feature']['publish'] != 0) {
 	$this->widget('ContentFeature', array(
 		'title' => $configTheme['feature']['title'],
 		'desc' => $configTheme['feature']['desc'],
 	));
 } //Features ?>
 
-<?php if(!$condition || in_array($configTheme['video']['publish'], array('', 1))) {
+<?php if($configTheme['video']['publish'] != 0) {
 	$this->widget('ContentVideo', array(
 		'source' => $configTheme['video']['source'],
 	));
 } //Video ?>
 
-<?php if(!$condition || in_array($configTheme['screenshot']['publish'], array('', 1))) {
+<?php if($configTheme['screenshot']['publish'] != 0) {
 	$this->widget('ContentScreenshot', array(
 		'title' => $configTheme['screenshot']['title'],
 		'desc' => $configTheme['screenshot']['desc'],
 	));
 } //Screenshot ?>
 
-<?php if(!$condition || in_array($configTheme['team']['publish'], array('', 1))) {
+<?php if($configTheme['team']['publish'] != 0) {
 	$this->widget('ContentTeam', array(
 		'title' => $configTheme['team']['title'],
 		'desc' => $configTheme['team']['desc'],
 	));
 } //Team ?>
 
-<?php if(!$condition || in_array($configTheme['testimony']['publish'], array('', 1))) {
+<?php if($configTheme['testimony']['publish'] != 0) {
 	$this->widget('ContentTestimonial', array(
 		'title' => $configTheme['testimony']['title'],
 		'desc' => $configTheme['testimony']['desc'],
 	));
 } //Testimonial ?>
 
-<?php if(!$condition || in_array($configTheme['price']['publish'], array('', 1))) {
+<?php if($configTheme['price']['publish'] != 0) {
 	$this->widget('ContentPrice', array(
 		'title' => $configTheme['price']['title'],
 		'desc' => $configTheme['price']['desc'],
 	));
 } //Price ?>
 
-<?php if(!$condition || in_array($configTheme['download']['publish'], array('', 1))) {
+<?php if($configTheme['download']['publish'] != 0) {
 	$this->widget('ContentDownload', array(
 		'title' => $configTheme['download']['title'],
 		'desc' => $configTheme['download']['desc'],
 	));
 } //Download ?>
 
-<?php if(!$condition || in_array($configTheme['faq']['publish'], array('', 1))) {
+<?php if($configTheme['faq']['publish'] != 0) {
 	$this->widget('ContentFaqs', array(
 		'title' => $configTheme['faq']['title'],
 		'desc' => $configTheme['faq']['desc'],
 	));
 } //Faqs ?>
 
-<?php if(!$condition || in_array($configTheme['newsletter']['publish'], array('', 1))) {
+<?php if($configTheme['newsletter']['publish'] != 0) {
 	$this->widget('ContentNewsletter');
 } //Newsletter ?>
 
-<?php if(!$condition || in_array($configTheme['contact-us']['publish'], array('', 1))) {
+<?php if($configTheme['contact-us']['publish'] != 0) {
 	$this->widget('ContentContactUs', array(
 		'title' => $configTheme['contact-us']['title'],
 		'desc' => $configTheme['contact-us']['desc'],
