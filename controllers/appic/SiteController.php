@@ -2,7 +2,6 @@
 /**
  * SiteController
  * @var $this SiteController
- * version: 0.0.1
  * Reference start
  *
  * TOC :

@@ -2,7 +2,6 @@
 /**
  * TemplateController
  * @var $this TemplateController
- * version: 0.0.1
  * Reference start
  *
  * TOC :
