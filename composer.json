@@ -1,0 +1,48 @@
+{
+	"name": "ommu/appic",
+	"description": "Appic - Creative Mobile App HTML Landing Page Template",
+	"type": "ommu-theme",
+	"keywords": [
+		"theme",
+		"appic",
+		"front-template",
+		"one-page",
+		"landing-page",
+		"mobile-app",
+		"mobile",
+		"app",
+		"landing",
+		"ommu",
+		"ommu-platform",
+		"yii2"
+	],
+	"license": "Apache-2.0",
+	"homepage": "https://github.com/ommu/theme-appic",
+	"support": {
+		"issues": "https://github.com/ommu/theme-appic/issues",
+		"wiki": "https://github.com/ommu/theme-appic/wiki",
+		"source": "https://github.com/ommu/theme-appic"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ommu/theme-appic.git"
+	},
+	"authors": [
+		{
+			"name": "Putra Sudaryanto",
+			"email": "putra@ommu.id",
+			"homepage": "https://ommu.id",
+			"role": "Developer"
+		},
+		{
+			"name": "VladerThemes",
+			"homepage": "https://www.templatemonster.com/authors/5a05422a9c163/",
+			"role": "Creator"
+		}
+	],
+	"require": {
+		"php": "~7.0",
+        "composer/installers": "~1.0",
+		"yiisoft/yii2": "~2.0.14"
+	}
+}
