@@ -1,8 +1,8 @@
 <?php
 /**
- * @author Putra Sudaryanto <putra@ommu.co>
- * @contact (+62)856-299-4114
- * @copyright Copyright (c) 2017 Ommu Platform (www.ommu.co)
+ * @author Putra Sudaryanto <putra@ommu.id>
+ * @contact (+62)811-2540-432
+ * @copyright Copyright (c) 2017 OMMU (www.ommu.id)
  * @created date 26 December 2017, 20:45 WIB
  * @link https://github.com/OmmuThemes/appic
  *
@@ -117,7 +117,7 @@
   <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title><?php echo $title;?></title>
-  <meta name="author" content="Ommu Platform (support@ommu.co)" />
+  <meta name="author" content="OMMU (support@ommu.id)" />
   <link rel="shortcut icon" href="<?php echo Yii::app()->theme->baseUrl;?>/favicon.ico" />
   <link rel="icon" type="image/png" sizes="16x16" href="<?php echo Yii::app()->theme->baseUrl;?>/images/favicon-16x16.png" />
   <link rel="apple-touch-icon" sizes="72x72" href="<?php echo Yii::app()->theme->baseUrl;?>/images/apple-icon-72x72.png" />
