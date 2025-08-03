@@ -5,13 +5,12 @@
 		"theme",
 		"frontend",
 		"onepage",
-		"mobile app",
-		"landing page",
+		"mobile-app",
+		"landing-page",
 		"mobile",
 		"app",
 		"landing",
-		"ommu",
-		"ommu-platform"
+		"ommu"
 	],
 	"homepage": "https://github.com/ommu/theme-appic",
 	"type": "ommu-theme",
@@ -28,8 +27,8 @@
 	"authors": [
 		{
 			"name": "Putra Sudaryanto",
-			"email": "putra@ommu.co",
-			"homepage": "https://ommu.co",
+			"email": "putra@ommu.id",
+			"homepage": "https://ommu.id",
 			"role": "Developer"
 		},
 		{
@@ -42,7 +41,5 @@
 		"php": ">=5.3.2",
 		"oomphinc/composer-installers-extender": "^1.0",
 		"yiisoft/yii": "1.1.*"
-	},
-	"require-dev": {
 	}
 }
